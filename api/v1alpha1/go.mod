@@ -1,4 +1,4 @@
-module v1alpha1
+module github.com/OrlovDiga/elasticsearch-security-operator/api/v1alpha1
 
 go 1.16
 
