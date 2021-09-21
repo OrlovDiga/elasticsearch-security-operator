@@ -30,9 +30,9 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 
-	securityv1alpha1 "github.com/aberestyak/elasticsearch-security-operator/api/v1alpha1"
-	config "github.com/aberestyak/elasticsearch-security-operator/config"
-	roles "github.com/aberestyak/elasticsearch-security-operator/internal/elasticsearch/roles"
+	securityv1alpha1 "github.com/OrlovDiga/elasticsearch-security-operator/api/v1alpha1"
+	config "github.com/OrlovDiga/elasticsearch-security-operator/config"
+	roles "github.com/OrlovDiga/elasticsearch-security-operator/internal/elasticsearch/roles"
 )
 
 const roleFinalizer = "role.security.rshbdev.ru/finalizer"

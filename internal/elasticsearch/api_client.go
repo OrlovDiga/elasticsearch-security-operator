@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"net/url"
 
-	appConfig "github.com/aberestyak/elasticsearch-security-operator/config"
+	appConfig "github.com/OrlovDiga/elasticsearch-security-operator/config"
 	log "github.com/sirupsen/logrus"
 )
 

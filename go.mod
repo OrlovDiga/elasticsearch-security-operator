@@ -1,4 +1,4 @@
-module github.com/aberestyak/elasticsearch-security-operator
+module github.com/OrlovDiga/elasticsearch-security-operator
 
 go 1.15
 

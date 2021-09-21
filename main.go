@@ -31,9 +31,9 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/healthz"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	securityv1alpha1 "github.com/aberestyak/elasticsearch-security-operator/api/v1alpha1"
-	"github.com/aberestyak/elasticsearch-security-operator/controllers"
-	"github.com/aberestyak/elasticsearch-security-operator/internal/logger"
+	securityv1alpha1 "github.com/OrlovDiga/elasticsearch-security-operator/api/v1alpha1"
+	"github.com/OrlovDiga/elasticsearch-security-operator/controllers"
+	"github.com/OrlovDiga/elasticsearch-security-operator/internal/logger"
 	//+kubebuilder:scaffold:imports
 )
 

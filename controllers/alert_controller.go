@@ -21,8 +21,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	config "github.com/aberestyak/elasticsearch-security-operator/config"
-	alerts "github.com/aberestyak/elasticsearch-security-operator/internal/elasticsearch/alerts"
+	config "github.com/OrlovDiga/elasticsearch-security-operator/config"
+	alerts "github.com/OrlovDiga/elasticsearch-security-operator/internal/elasticsearch/alerts"
 	"github.com/go-logr/logr"
 	log "github.com/sirupsen/logrus"
 	kerrors "k8s.io/apimachinery/pkg/api/errors"
@@ -31,7 +31,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 
-	securityv1alpha1 "github.com/aberestyak/elasticsearch-security-operator/api/v1alpha1"
+	securityv1alpha1 "github.com/OrlovDiga/elasticsearch-security-operator/api/v1alpha1"
 )
 
 const alertFinalizer = "alert.security.rshbdev.ru/finalizer"

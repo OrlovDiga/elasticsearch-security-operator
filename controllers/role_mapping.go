@@ -5,9 +5,9 @@ import (
 	"errors"
 	"reflect"
 
-	"github.com/aberestyak/elasticsearch-security-operator/api/v1alpha1"
-	"github.com/aberestyak/elasticsearch-security-operator/config"
-	rolemappings "github.com/aberestyak/elasticsearch-security-operator/internal/elasticsearch/rolemappings"
+	"github.com/OrlovDiga/elasticsearch-security-operator/api/v1alpha1"
+	"github.com/OrlovDiga/elasticsearch-security-operator/config"
+	rolemappings "github.com/OrlovDiga/elasticsearch-security-operator/internal/elasticsearch/rolemappings"
 	log "github.com/sirupsen/logrus"
 )
 

@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"strings"
 
-	config "github.com/aberestyak/elasticsearch-security-operator/config"
-	elasticsearch_api_client "github.com/aberestyak/elasticsearch-security-operator/internal/elasticsearch"
+	config "github.com/OrlovDiga/elasticsearch-security-operator/config"
+	elasticsearch_api_client "github.com/OrlovDiga/elasticsearch-security-operator/internal/elasticsearch"
 	log "github.com/sirupsen/logrus"
 )
 
